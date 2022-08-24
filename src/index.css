@@ -1,0 +1,42 @@
+:root {
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root{
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  
+  align-items: center;
+}
+body {
+  width: 100vw;
+  
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background: rgb(34, 25, 161);
+background: linear-gradient(0deg, rgb(33, 24, 149) 0%, rgba(230,223,37,1) 85%);
+
+}
+
+
+

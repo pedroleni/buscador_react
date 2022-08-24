@@ -1,0 +1,38 @@
+header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 4vh;
+
+}
+
+.portada{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.portada img {
+  width: 60%;
+}
+
+
+@media (max-width: 1000px){   
+}
+
+
+@media (max-width: 992px) { 
+}
+
+@media (max-width: 776px) {   
+}
+
+@media (max-width: 420px) {  
+}
+
+  /* iphone SE */
+
+@media (max-width: 376px) {
+}

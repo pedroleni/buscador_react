@@ -1,0 +1,98 @@
+footer{
+    color:rgb(6, 6, 15);
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(234,241,26);
+    background: radial-gradient(circle, rgba(234,241,26,1) 0%, rgba(18,27,135,1) 100%);
+
+}
+
+
+
+footer ul {
+    display:flex;
+
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+footer div ul li img{
+    width: 40px;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.image_footer_first img{
+    width: 100%;
+}
+.image_footer_first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 776px){
+    .flipCard-clow{
+        width: 25%;
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width: 776px) {
+    footer{
+        height: 10vh;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 420px) {
+    footer{
+        height: 8vh;
+        font-size: 5px;
+    }
+
+    footer ul li{
+        
+        font-size: 12px;
+    }
+
+    .image_footer_first{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .image_footer_first img {
+        width: 32vh;
+    }
+
+
+}
+
+
